@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Kuari.ShopApplication.Service.Services
 {
-    internal class Service<TEntity, ListDto, CreateDto, UpdateDto> : IService<TEntity, ListDto, CreateDto, UpdateDto>
+    public class Service<TEntity, ListDto, CreateDto, UpdateDto> : IService<TEntity, ListDto, CreateDto, UpdateDto>
         where TEntity : class, new()
         where ListDto : class, new()
         where CreateDto : class, new()

@@ -15,7 +15,5 @@ namespace Kuari.ShopApplication.Repository.Repositories
             _context = context;
         }
 
-
-   
     }
 }
